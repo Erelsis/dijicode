@@ -257,6 +257,30 @@
 			"problemMatcher": []
 		},
 		{
+			"label": "Verify ABAP-Aware Extensions",
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"./scripts/verify-abap-aware-extensions.sh"
+			],
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always"
+			}
+		},
+		{
+			"label": "Install ABAP-Aware Extensions",
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"./scripts/install-abap-aware-extensions.sh"
+			],
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always"
+			}
+		},
+		{
 			"label": "Run Dev Agents",
 			"type": "shell",
 			"command": "./scripts/code.sh",

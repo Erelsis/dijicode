@@ -36,6 +36,13 @@ function code() {
 		return
 	fi
 
+	# Keep the fork ABAP-aware by reconciling pinned extension versions on launch.
+	if [[ "${DIJICODE_SKIP_ABAP_AWARE_BOOTSTRAP:-0}" != "1" && -f "$ROOT/scripts/verify-abap-aware-extensions.sh" ]]; then
+		if ! bash "$ROOT/scripts/verify-abap-aware-extensions.sh" --fix --quiet; then
+			echo "Warning: ABAP-aware extension bootstrap failed; continuing launch."
+		fi
+	fi
+
 	# Configuration
 	export NODE_ENV=development
 	export VSCODE_DEV=1

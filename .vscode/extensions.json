@@ -5,9 +5,13 @@
 		"dbaeumer.vscode-eslint",
 		"editorconfig.editorconfig",
 		"github.vscode-pull-request-github",
+		"hudakf.cds",
 		"ms-vscode.vscode-github-issue-notebooks",
 		"ms-vscode.extension-test-runner",
 		"typescriptteam.native-preview",
-		"ms-vscode.ts-customized-language-service"
+		"ms-vscode.ts-customized-language-service",
+		"larshp.vscode-abap",
+		"murbani.vscode-abap-remote-fs",
+		"murbani.winregistry"
 	]
 }

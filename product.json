@@ -233,5 +233,27 @@
 	],
 	"builtInExtensionsEnabledWithAutoUpdates": [
 		"GitHub.copilot-chat"
+	],
+	"dijicodeAbapAwareExtensions": [
+		{
+			"id": "larshp.vscode-abap",
+			"version": "0.5.10",
+			"displayName": "ABAP Syntax Highlighting"
+		},
+		{
+			"id": "hudakf.cds",
+			"version": "0.7.2",
+			"displayName": "ABAP CDS Language Support"
+		},
+		{
+			"id": "murbani.winregistry",
+			"version": "0.0.1",
+			"displayName": "winregistry"
+		},
+		{
+			"id": "murbani.vscode-abap-remote-fs",
+			"version": "2.4.3",
+			"displayName": "ABAP remote filesystem"
+		}
 	]
 }
